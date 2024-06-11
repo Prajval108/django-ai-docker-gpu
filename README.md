@@ -1,11 +1,11 @@
 ## Prerequisites
-
 Before you begin, ensure you have the following installed:
 
 - [Docker](https://docs.docker.com/get-docker/)
 - [Docker Compose](https://docs.docker.com/compose/install/)
 - A compatible GPU and CUDA drivers installed on your host machine
 - [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html) for Docker
+- A working Django application with the repository containing the `Dockerfile` and `docker-compose.yml`
 
 ## How to Run Dockerfile
 
