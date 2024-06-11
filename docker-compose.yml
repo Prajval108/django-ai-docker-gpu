@@ -7,7 +7,7 @@ services:
     volumes:
       - .:/app
     ports:
-      - "8071:8071"
+      - "9071:9071"
     deploy:
       resources:
         reservations:
