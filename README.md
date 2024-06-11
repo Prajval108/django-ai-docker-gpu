@@ -18,7 +18,7 @@ docker build -t django-ai-gpu .
 ### Step 2: Run the Docker Container
 
 ```bash
-docker run --gpus all -p 8071:8071 django-ai-gpu
+docker run --gpus all -p 9071:9071 django-ai-gpu
 ```
 This command will start the container with GPU support and map port 8000 of the container to port 8000 on your host.
 
@@ -36,7 +36,7 @@ This will build the Docker image and start the container with GPU support.
 
 ### Step 2: Access the Django Application
 
-Once the container is running, you can access the Django application at `http://localhost:8071`.
+Once the container is running, you can access the Django application at `http://localhost:9071`.
 
 
 ## File Overview
